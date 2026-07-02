@@ -1,10 +1,30 @@
-<form>
-    <input type="number" placeholder="Item ID">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <input type="text" placeholder="Item Name">
+<div class="container">
+    <form>
 
-    <textarea placeholder="Item Description"></textarea>
+        <h2>Item Details</h2>
 
-    <button>Submit</button>
+        <input type="number" placeholder="Item ID" required>
 
-</form>
+        <input type="number" placeholder="Item UUID" required>
+
+        <input type="text" placeholder="Item Name" required>
+
+        <textarea placeholder="Item Description" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</div>
+
+</body>
+</html>
