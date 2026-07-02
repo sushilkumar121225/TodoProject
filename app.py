@@ -10,7 +10,8 @@ def home():
 def api():
     return jsonify({
         "name": "Sushil Kumar",
-        "course": "B.tech"
+        "course": "B.tech",
+        "sem": "7th"
     })
 
 if __name__ == "__main__":
